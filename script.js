@@ -35,7 +35,7 @@ function zbierzKomentarze() {
   const komentarze = document.getElementById('komentarze');
   komentarze.innerHTML = '';
 
-  data.forEach((item, index) => {
+  data.forEach((item) => {
     const h = document.createElement('h1');
     const p = document.createElement('p');
 
