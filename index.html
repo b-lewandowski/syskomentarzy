@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Strona komentarzy</title>
+</head>
+<body>
+    <form id="formKomentarz">
+        <label for="nazwa">Nazwa:</label>
+        <input type="text" id="nazwa" name="author"><br>
+        <label for="komentarz">Komentarz:</label>
+        <textarea id="komentarz" name="comment" rows="5" cols="50"></textarea><br>
+        <button type="button" onclick="doJSON()">Wyślij komentarz</button>
+    </form>
+    <div id="komentarze">
+        
+    </div>
+</body>
+</html>
